@@ -1,0 +1,108 @@
+// COLOR SET
+
+$red: #E06B65;
+$yellow: #FEEB96;
+$green: #99CC99;
+$blue: #99CCFF;
+$gray: #787878;
+$black: #202020;
+
+// CSS RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// body {
+//     font-family: 'Montserrat', sans-serif;
+//     text-align: left;
+// }
+
+a:hover {
+    text-decoration: none;
+    color: $gray;
+    transition-timing-function: ease-in;
+}
+
+
+// NAV BAR
+
+nav {
+    font-weight: 500;
+    background-color: white;
+    color: $black;
+}
+
+.navbar.scrolled {
+    background-color: white !important;
+    transition: background-color 200ms linear;
+    color: $black;
+}
+
+
+// FOOTER
+
+footer {
+    background-color: white;
+    color: $black;
+    padding: 20px 10vw;
+    text-align: center;
+    margin-top: 5vw;
+    z-index: 1;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5rem;
+    justify-content: center;
+    z-index: 1;
+}
+
+.col-5ths {
+    padding: 0 10px;
+}
+
+.footer-icon-1:hover {
+    color: $red;
+}
+
+.footer-icon-2:hover {
+    color: $yellow;
+}
+
+.footer-icon-3:hover {
+    color: $green;
+}
+
+.footer-icon-4:hover {
+    color: $blue;
+}
+
+.footer-icon-5:hover {
+    color: $red;
+}
+
+
+// MEDIA QUERIES
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

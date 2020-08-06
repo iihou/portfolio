@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #787878;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+nav {
+  font-weight: 500;
+  background-color: white;
+  color: #202020;
+}
+
+.navbar.scrolled {
+  background-color: white !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: #202020;
+}
+
+footer {
+  background-color: white;
+  color: #202020;
+  padding: 20px 10vw;
+  text-align: center;
+  margin-top: 5vw;
+  z-index: 1;
+}
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 2.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.col-5ths {
+  padding: 0 10px;
+}
+
+.footer-icon-1:hover {
+  color: #E06B65;
+}
+
+.footer-icon-2:hover {
+  color: #FEEB96;
+}
+
+.footer-icon-3:hover {
+  color: #99CC99;
+}
+
+.footer-icon-4:hover {
+  color: #99CCFF;
+}
+
+.footer-icon-5:hover {
+  color: #E06B65;
+}
+/*# sourceMappingURL=styles.css.map */
