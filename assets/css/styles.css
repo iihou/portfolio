@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  height: 100vh;
+}
+
 a {
   color: #343434;
 }
@@ -35,6 +41,18 @@ nav {
   color: #343434;
 }
 
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+#landing-img {
+  -webkit-transform: translate(0, 50%);
+          transform: translate(0, 50%);
+}
+
 footer {
   background-color: white;
   color: #202020;
@@ -42,6 +60,8 @@ footer {
   text-align: center;
   margin-top: 5vw;
   z-index: 1;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-icons {

@@ -19,10 +19,11 @@ $gray: #787878;
     box-sizing: border-box;
 }
 
-// body {
-//     font-family: 'Montserrat', sans-serif;
-//     text-align: left;
-// }
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    height: 100vh;
+}
 
 a {
     color: $soft-black;
@@ -55,6 +56,21 @@ nav {
     color: $soft-black;
 }
 
+// LANDING
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+  }
+
+#landing-img {
+    // position: absolute;
+    // top: 50%;
+    transform: translate(0, 50%);
+}
+
 
 // FOOTER
 
@@ -65,6 +81,8 @@ footer {
     text-align: center;
     margin-top: 5vw;
     z-index: 1;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-icons {
@@ -74,10 +92,6 @@ footer {
     justify-content: center;
     z-index: 1;
 }
-
-// .col-5ths {
-//     padding: 0 10px;
-// }
 
 .footer-icon-1:hover {
     color: $teal;
