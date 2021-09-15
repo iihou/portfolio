@@ -35,6 +35,20 @@ a:hover {
     transition-timing-function: ease-in;
 }
 
+h2 {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+    // padding-top: 4rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 0.75rem;
+    // padding-top: 1.5rem;
+}
+
 
 // NAV BAR
 
@@ -68,7 +82,7 @@ nav {
 #landing-img {
     // position: absolute;
     // top: 50%;
-    transform: translate(0, 50%);
+    transform: translate(-2%, 50%);
 }
 
 

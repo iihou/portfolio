@@ -16,6 +16,16 @@ a:hover {
           transition-timing-function: ease-in;
 }
 
+.project-tile {
+  width: 95%;
+  height: 100%;
+  margin-bottom: 10%;
+}
+
+.project-tile:hover {
+  opacity: 0.5;
+}
+
 nav {
   font-weight: 500;
   font-size: 17px;
@@ -74,4 +84,4 @@ footer {
 .footer-icon-4:hover {
   color: #7736C4;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=work.css.map */
