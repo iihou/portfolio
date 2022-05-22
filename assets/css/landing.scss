@@ -1,0 +1,64 @@
+// COLOR SET
+
+$red: #E06B65;
+$yellow: #FEEB96;
+$blue: #99CCFF;
+$black: #202020;
+$soft-black: #343434;
+$teal: #529FA6;
+$green: #9FC157;
+$magenta: #D64279;
+$purple: #7736C4;
+$gray: #787878;
+
+
+// NAV BAR
+
+
+// LANDING
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+  }
+
+#landing-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+// FOOTER
+
+#footer {
+    position: absolute; 
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+// MEDIA QUERIES
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

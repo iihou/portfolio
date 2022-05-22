@@ -60,11 +60,6 @@ nav {
   width: 50vw;
 }
 
-#landing-img {
-  -webkit-transform: translate(-2%, 50%);
-          transform: translate(-2%, 50%);
-}
-
 footer {
   background-color: white;
   color: #202020;
@@ -72,7 +67,6 @@ footer {
   text-align: center;
   margin-top: 5vw;
   z-index: 1;
-  position: absolute;
   bottom: 0;
 }
 
