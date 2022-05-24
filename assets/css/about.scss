@@ -85,52 +85,49 @@ nav {
 
 .search-wrapper {
     width: 450px;
-    margin: 150px auto 50px auto;
-    border-radius: 40px;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
     background: transparent;
-    box-shadow: 0 4px 20px -2px #e9e9e9;
+    color: $soft-black;
+    outline-style: solid;
+    outline-color: $soft-black;
 }
 
 /* Form text input */
 
 .search-wrapper input {
-  padding-left: 20px;
     width: 330px;
     height: 20px;
-    padding: 10px 5px;
-    float: left;   
-    font: bold 13px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    margin-top: 8px;
+    float: left;
+    font-size: 14px;
     border: 0;
     background: #fff;
     border-radius: 40px;
     border-top-style: none;
+    padding-left: 20px;
 }
 
 .search-wrapper input:focus {
     outline: 0;
     background: #fff;
-    box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+    padding-left: 20px;
 }
 
 .search-wrapper input::-webkit-input-placeholder {
-   color: #999;
-   font-weight: normal;
-   font-style: italic;
-  padding-left: 20px;
+    color: $gray;
+    font-weight: 500;
 }
 
 .search-wrapper input:-moz-placeholder {
-    
-    color: #999;
-    font-weight: normal;
-    font-style: italic;
+    color: $gray;
+    font-weight: 500;
 }
 
 .search-wrapper input:-ms-input-placeholder {
-    color: #999;
-    font-weight: normal;
-    font-style: italic;
-  border-style: none;
+    color: $gray;
+    font-weight: 500;
+    border-style: none;
 }   
 
 /* Form submit button */
@@ -143,27 +140,29 @@ nav {
     cursor: pointer;
     height: 40px;
     width: 110px;
-    font: 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-    color: #fff;
+    color: $soft-black;
     text-transform: uppercase;
-    background: #198cff;
-    border-radius: 40px;
-    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    background-color: white;
+    font-weight: 500;
+    outline-style: solid;
+    outline-color: $soft-black;
+    border-radius: 0px 10px 10px 0px;
 }  
 
 .search-wrapper button:hover{    
-    background: #837e7e;
+    background: $teal;
+    color: white;
 }  
 
 .search-wrapper button:active,
 .search-wrapper button:focus{  
-    background: #198cff;
+    background: $teal;
     outline: 0;  
 }
 
 .search-wrapper button:focus:before,
 .search-wrapper button:active:before{
-        border-right-color: #c42f2f;
+    border-right-color: $teal;
 }     
 
 .search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
