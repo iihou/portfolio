@@ -1,0 +1,106 @@
+.proj-content {
+  padding: 0rem 4rem;
+}
+
+.proj-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.new-section {
+  padding: 4rem 5rem 2rem;
+}
+
+h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
+}
+
+h3 {
+  padding-bottom: 3rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.22rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.22rem;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 1.22rem;
+  font-style: italic;
+}
+
+.persona {
+  background-color: #F4F4F4;
+  padding: 1rem 4rem;
+}
+
+.centered {
+  margin-left: 10rem;
+}
+
+#hmw {
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.top-padding {
+  padding-top: 6rem;
+}
+
+.overlay {
+  position: relative;
+}
+
+.image {
+  display: block;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #F4F4F4;
+  opacity: 0;
+}
+
+.overlay-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #202020;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.overlay:hover .description {
+  opacity: 0.9;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.gallery-tall {
+  padding: 6rem 5rem;
+  margin-top: 2rem;
+}
+
+.gallery-short {
+  padding: 3rem 3rem;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=project.css.map */
